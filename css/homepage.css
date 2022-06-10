@@ -14,6 +14,9 @@ body{
   margin-top: 6vh;
   margin-left: 3vh;
  }
+ .slides img {
+   width: 600px;
+ }
  .slides{ 
    width:500%;
   height:500px;
@@ -66,3 +69,23 @@ body{
 #radio4:checked ~ .first{
   margin-left: -60%;
 }
+
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 460px;
+}
+
+.navigation-auto div {
+  border: 2px solid #FFA641;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last child){
+  
+}
+
